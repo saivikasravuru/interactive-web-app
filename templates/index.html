@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interactive Web App</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Quick Links Dashboard</h1>
+
+  <button onclick="openLink('GitHub')">GitHub</button>
+  <button onclick="openLink('Copilot')">Copilot</button>
+  <button onclick="openLink('Instagram')">Instagram</button>
+  <button onclick="openLink('Classroom')">Google Classroom</button>
+  <button onclick="openLink('Gmail')">Gmail</button>
+  <button onclick="openLink('Google')">Google</button>
+  <button onclick="openLink('YouTube')">YouTube</button>
+  <button onclick="openLink('Chatgpt')">Chatgpt</button>
+
+  <p id="responseText"></p>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

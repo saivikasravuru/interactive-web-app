@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.unsplash.com/photo-1517816428104-797678c7cfb5');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: px;
+  color: white;
+  transition: transform 0.2s, opacity 0.3s;
+}
+
+button:nth-of-type(1) { background-color: #000000; }  /* GitHub */
+button:nth-of-type(2) { background-color: #0078D4; }  /* Copilot */
+button:nth-of-type(3) { background-color: #E1306C; }  /* Instagram */
+button:nth-of-type(4) { background-color: #25A667; }  /* Classroom */
+button:nth-of-type(5) { background-color: #EA4335; }  /* Gmail */
+button:nth-of-type(6) { background-color: #8ad4f4; }  /* Google */
+button:nth-of-type(7) { background-color: #FF0000; }  /* YouTube */
+button:nth-of-type(8) { background-color: #010101; }
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+#responseText {
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
