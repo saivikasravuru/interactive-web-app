@@ -1,6 +1,6 @@
 # 🌐 Interactive Web Dashboard
 
-A colorful, responsive, and beginner-friendly web application built with Flask, HTML, CSS, and JavaScript. It features quick-access buttons to platforms like GitHub, Copilot, Instagram, Google Classroom, Gmail, Google, and YouTube — all styled with their signature brand colors and opened with a single click.
+A colorful, responsive, and beginner-friendly web application built with Flask, HTML, CSS, and JavaScript. It features quick-access buttons to platforms like GitHub, Copilot, Instagram, Google Classroom, Gmail, Google, and YouTube —- all styled with their signature brand colors and opened with a single click.
 
 ---
 
